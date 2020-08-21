@@ -10,7 +10,7 @@ Module Variables
         Dim someSortOfTest As Boolean
 
         myFirstNumber = 42
-        mySecondNumber = 0
+        mySecondNumber = 8
 
         Console.WriteLine(myFirstNumber)
         Console.ReadLine()
