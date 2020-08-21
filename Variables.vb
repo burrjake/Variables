@@ -6,22 +6,27 @@ Module Variables
     Sub Main()
         Dim myFirstNumber As Integer
         Dim mySecondNumber As Integer
+        Dim result As Integer
         Dim aLittleString As String
         Dim someSortOfTest As Boolean
 
         myFirstNumber = 42
         mySecondNumber = 8
+        result = myFirstNumber + mySecondNumber
 
-        Console.WriteLine(myFirstNumber)
+        Console.WriteLine(myFirstNumber & "+" & mySecondNumber & "=" & result)
         Console.ReadLine()
 
-        aLittleString = "Some text"
-        Console.WriteLine(aLittleString)
-        Console.ReadLine()
+        'Console.WriteLine(myFirstNumber)
+        'Console.ReadLine()
 
-        someSortOfTest = True
-        Console.WriteLine(someSortOfTest)
-        Console.ReadLine()
+        'aLittleString = "Some text"
+        'Console.WriteLine(aLittleString)
+        'Console.ReadLine()
+
+        'someSortOfTest = True
+        'Console.WriteLine(someSortOfTest)
+        'Console.ReadLine()
 
         'x = 7
 
